@@ -1,0 +1,94 @@
+*{
+background-color: cornsilk;
+}
+.square {
+  background-color:white;
+  border:1px solid #d63d26;
+
+}
+h1{
+    margin-left: 550px;
+    color: darkslategray;
+}
+.container {
+    margin-left: 480px;
+    border: .5px solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    align-items: stretch;
+    justify-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    margin-top: 30px;
+    background-color: whitesmoke;
+
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+}
+.button #Size {
+    padding: 15px;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 15rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    text-shadow: 0 0 .5rem black;
+    cursor: pointer;
+}
+.button #Size:hover{
+  background-color: teal;
+}
+
+.button #black {
+    padding: 15px;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 15rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    text-shadow: 0 0 .5rem black;
+    cursor: pointer;
+}
+.button #black:hover{
+    background-color: whitesmoke;
+}
+.gridBlock{
+    border: 1px solid black;
+    background-color: white;
+    justify-self: stretch;
+  }
+.button #color {
+    padding: 15px;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 15rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    text-shadow: 0 0 .5rem black;
+    cursor: pointer;
+}
+.button #color:hover{
+    background-color: tomato;
+}
